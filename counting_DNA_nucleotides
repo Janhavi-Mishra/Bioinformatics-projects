@@ -1,0 +1,17 @@
+genome = input('Enter genomic data here: \n')
+
+a = 0
+t = 0
+g = 0
+c = 0
+for nucleic_acid in genome:
+    if nucleic_acid == 'A':
+        a += 1
+    elif nucleic_acid == 'T':
+        t += 1
+    elif nucleic_acid == 'G':
+        g += 1
+    elif nucleic_acid == 'C':
+        c += 1
+
+print(f'A = {a}\nC = {c}\nG = {g}\nT = {t}')
